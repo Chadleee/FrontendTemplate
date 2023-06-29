@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [message, setMessage] = useState('messano message availablege');
+  const [message, setMessage] = useState('no message available');
 
   useEffect(() => {
     fetch('http://localhost:3001/hello')
